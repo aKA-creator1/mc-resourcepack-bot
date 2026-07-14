@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: mc-resourcepack-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python rp_bot.py
+    envVars:
+      - key: TELEGRAM_TOKEN
+        value: 8874887697:AAGK0BTfJS54vZzQU0_egeYpSla87jbLiE4
