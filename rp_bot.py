@@ -16,7 +16,8 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # ========== ПОЛУЧАЕМ ТОКЕН ==========
-TOKEN = os.getenv("8874887697:AAHzVjGC6M5Q5NtZ5FMwjFJ47-MFE422PLs")
+TOKEN = 
+"8874887697:AAHzVjGC6M5Q5NtZ5FMwjFJ47-MFE422PLs"
 if not TOKEN:
     logger.error("❌ Переменная TELEGRAM_TOKEN не установлена!")
     raise ValueError("❌ Переменная TELEGRAM_TOKEN не установлена!")
